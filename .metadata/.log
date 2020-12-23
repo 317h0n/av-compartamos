@@ -234,3 +234,173 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.eclipse.ui 2 2 2020-12-22 21:09:29.773
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 21:49:27.479
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 21:49:27.480
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 21:49:27.480
+!MESSAGE buffering callback sts4.classpath.ebkdcTei Parte02 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 21:49:27.480
+!MESSAGE executing callback sts4.classpath.ebkdcTei 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 21:49:27.482
+!MESSAGE executing callback sts4.classpath.ebkdcTei SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:17:18.593
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:17:18.593
+!MESSAGE buffering callback sts4.classpath.ebkdcTei Parte02 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:17:18.593
+!MESSAGE executing callback sts4.classpath.ebkdcTei 1 batched events
+
+!ENTRY org.eclipse.core.resources 4 2 2020-12-22 22:17:18.594
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LSPEclipseUtils.toWorkspaceFolder(LSPEclipseUtils.java:790)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:507)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.lsp4e.LanguageServerWrapper.toWorkspaceFolderEvent(LanguageServerWrapper.java:501)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:170)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:575)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:17:18.595
+!MESSAGE executing callback sts4.classpath.ebkdcTei SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:26:57.907
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:26:57.908
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:26:57.908
+!MESSAGE buffering callback sts4.classpath.ebkdcTei BancoDemo false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:26:57.908
+!MESSAGE executing callback sts4.classpath.ebkdcTei 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:26:57.910
+!MESSAGE executing callback sts4.classpath.ebkdcTei SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:03.392
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:03.393
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:03.393
+!MESSAGE buffering callback sts4.classpath.ebkdcTei BancoDemo false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:03.393
+!MESSAGE executing callback sts4.classpath.ebkdcTei 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:03.394
+!MESSAGE executing callback sts4.classpath.ebkdcTei SUCCESS [done]
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-12-22 22:27:19.118
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-12-22 22:27:19.121
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:42.534
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:42.534
+!MESSAGE buffering callback sts4.classpath.ebkdcTei BancoDemo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:42.534
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:42.534
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:42.535
+!MESSAGE buffering callback sts4.classpath.ebkdcTei Parte02 false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:42.535
+!MESSAGE executing callback sts4.classpath.ebkdcTei 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:42.537
+!MESSAGE executing callback sts4.classpath.ebkdcTei SUCCESS [done]
+
+!ENTRY org.eclipse.core.resources 4 2 2020-12-22 22:27:42.537
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LSPEclipseUtils.toWorkspaceFolder(LSPEclipseUtils.java:790)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:507)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.lsp4e.LanguageServerWrapper.toWorkspaceFolderEvent(LanguageServerWrapper.java:501)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:170)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:575)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:44.815
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:44.815
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:44.815
+!MESSAGE buffering callback sts4.classpath.ebkdcTei Parte02 false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:44.815
+!MESSAGE executing callback sts4.classpath.ebkdcTei 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:27:44.817
+!MESSAGE executing callback sts4.classpath.ebkdcTei SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:28:49.216
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:28:49.216
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:28:49.216
+!MESSAGE buffering callback sts4.classpath.ebkdcTei Parte02 false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:28:49.216
+!MESSAGE executing callback sts4.classpath.ebkdcTei 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 22:28:49.218
+!MESSAGE executing callback sts4.classpath.ebkdcTei SUCCESS [done]
