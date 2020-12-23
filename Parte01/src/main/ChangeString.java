@@ -3,20 +3,20 @@ package main;
 public class ChangeString {
 
 	public static void main(String[] args) {
-		String cadena = "123 abcd*3";
+		String entrada = "123 abcd*3";
 		if (args != null && args.length > 0) {
-			cadena = args[0];
+			entrada = args[0];
 		}
-		build(cadena);
+		String salida = build(entrada);
+		System.out.println("entrada: [" + entrada + "] salida: [" + salida + "]");
 	}
 	
-	private static void build(String cadena) {
+	private static String build(String cadena) {
 		char caracteres[] = cadena.toCharArray();
 		for (int i = 0; i < caracteres.length; i++) {
 			caracteres[i] = next(caracteres[i]);			
 		}
-		String nuevaCadena = String.valueOf(caracteres);
-		System.out.println(nuevaCadena);
+		return String.valueOf(caracteres);
 	}
 	
 	private static char next(char letra) {

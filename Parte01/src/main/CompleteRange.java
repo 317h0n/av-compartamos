@@ -5,16 +5,18 @@ import java.util.Arrays;
 public class CompleteRange {
 
 	public static void main(String[] args) {
-		build(new int[]{20,38,5});	
+		int[] entrada = new int[]{20,38,5};
+		int[] salida = build(entrada);	
+		System.out.println("entrada: " + Arrays.toString(entrada) + " salida: " + Arrays.toString(salida));
 	}
 	
-	private static void build(int[] rango) {
+	private static int[] build(int[] rango) {
 		int mayor = getMayor(rango);
 		int[] arreglo = new int[mayor];
 		for (int i = 0; i < arreglo.length; i++) {
 			arreglo[i] = i + 1;			
 		}
-		System.out.println(Arrays.toString(arreglo));
+		return arreglo;
 	}
 
 	private static int getMayor(int[] rango) {
