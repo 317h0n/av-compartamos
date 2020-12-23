@@ -80,3 +80,63 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:02:12.035
 !MESSAGE executing callback sts4.classpath.JZWGRWRI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:24.931
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JZWGRWRI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:24.932
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JZWGRWRI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:24.932
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:24.932
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JZWGRWRI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:24.936
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:24.936
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1d3f5482[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=657)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:24.937
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.807
+!MESSAGE Boot LS startup time from start to initialized: 870ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.829
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vMAxwPDQisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.829
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.829
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.830
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.830
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.830
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.830
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vMAxwPDQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.830
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.831
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.831
+!MESSAGE buffering callback sts4.classpath.vMAxwPDQ Parte01 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.831
+!MESSAGE executing callback sts4.classpath.vMAxwPDQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-22 19:07:25.845
+!MESSAGE executing callback sts4.classpath.vMAxwPDQ SUCCESS [done]
