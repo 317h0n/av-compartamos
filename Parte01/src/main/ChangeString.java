@@ -7,6 +7,10 @@ public class ChangeString {
 		if (args != null && args.length > 0) {
 			cadena = args[0];
 		}
+		build(cadena);
+	}
+	
+	private static void build(String cadena) {
 		char caracteres[] = cadena.toCharArray();
 		for (int i = 0; i < caracteres.length; i++) {
 			caracteres[i] = next(caracteres[i]);			
@@ -20,20 +24,28 @@ public class ChangeString {
 				|| ((int)letra > 122 && (int)letra != 241 && (int)letra != 209)) {			
 			return letra;
 		}
-		if ((int)letra == 90) {
+		switch ((int)letra) {
+		case 90:
 			letra = (char)(65);
-		} else if ((int)letra == 122) {
+			break;
+		case 122:
 			letra = (char)(97);
-		} else if ((int)letra == 241) {
+			break;
+		case 241:
 			letra = (char)(111);
-		} else if ((int)letra == 209) {
+			break;
+		case 209:
 			letra = (char)(79);
-		} else if ((int)letra == 110) {
+			break;
+		case 110:
 			letra = (char)(241);
-		} else if ((int)letra == 78) {
+			break;
+		case 78:
 			letra = (char)(209);
-		} else {
+			break;
+		default:
 			letra = (char)(letra+1);
+			break;
 		}
 		return letra;
 	}
